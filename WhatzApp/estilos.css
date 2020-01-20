@@ -1,0 +1,103 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto; 
+    height: 30%;
+    width: 100%;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.ContenidoGeneral{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+
+}
+
+.columna1{
+    border-right: 1px solid #8C8C8C;
+    background-color:#F2F2F2;
+}
+
+.btn{
+    background-color: #F2F2F2;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 100%;
+    padding: 15%;
+    Border:1px solid #DBDBDB;
+    text-align: start;
+    cursor: pointer;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.btn:hover{
+    background: #8C8C8C;
+}
+
+
+.tituloAside{
+    border: 2px solid #DBDBDB;;
+    text-align: center;
+    background-color:#DBDBDB;
+    font-size: 30px;
+    font-family: cursive;
+    height: 35%;
+    width: 100%;
+}
+
+.Lista{
+    height: 65%;
+}
+
+.columna2{
+    background-color: #F2F2F2;
+}
+.tituloMain{
+    border: 2px solid #DBDBDB;;
+    text-align: center;
+    background-color:#DBDBDB;
+    font-size: 25px;
+    font-family: cursive;
+    height: 20%;
+}
+
+.mensaje{
+    
+    height: 70%;
+    background: #F2F2F2;
+    
+    
+}
+
+.inpu{
+    height:5%;
+    background: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 90%;
+    
+}
+input{
+    margin-top: 10px;
+    margin-left: 15px;
+    outline: none;
+    border: 0;
+    width: 90%;
+}
+
+::-webkit-input-placeholder {
+    
+    font-size: 15px;
+   } 

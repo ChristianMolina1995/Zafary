@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #5AD2AE;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.Formulario{
+    margin: 0 auto;
+    width: 400px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 80px;    
+}
+
+.contenedor{
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    border:1px solid #C3F1FF ;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    width: 85%;
+    
+}
+
+
+::-webkit-input-placeholder {
+     color:#5AD2AE;
+     font-size: 15px;
+    } 
+
+
+
+.btn{
+    background-color: #5AD2AE;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(66, 144, 207);
+}
+
+p{
+    color: #afafaf;
+}

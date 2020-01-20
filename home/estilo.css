@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    background-color:#F2FCFF;;
+    
+  }
+  
+  *{
+      box-sizing: border-box;
+  }
+
+  
+
+  section {
+      text-align: center;
+      font-size: 30px;
+      font-family: cursive;
+      
+  }
+
+  .contenedor{
+      background-color:#F2FCFF;
+  }
+  
